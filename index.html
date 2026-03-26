@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury Safaris | Tailored African Experiences</title>
+    <meta
+      name="description"
+      content="Private luxury safaris across Africa. Bespoke itineraries, handpicked lodges, expert guides, and seamless logistics."
+    />
+    <link rel="canonical" href="https://luxurysafaris.example/" />
+    <meta property="og:title" content="Luxury Safaris | Tailored African Experiences" />
+    <meta
+      property="og:description"
+      content="Private luxury safaris across Africa. Bespoke itineraries, handpicked lodges, expert guides, and seamless logistics."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://luxurysafaris.example/" />
+    <meta property="og:image" content="media/logoafrica.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="media/logoafrica.jpeg"
+      sizes="any"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="media/logoafrica.jpeg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav">
+      <div class="nav__brand">
+        <a href="#top" aria-label="LuxurySafaris home">
+          <img
+            src="media/logoafrica.jpeg"
+            alt="LuxurySafaris logo"
+            class="nav__logo"
+            loading="eager"
+            decoding="async"
+            width="44"
+            height="44"
+          />
+          <span>LuxurySafaris</span>
+        </a>
+      </div>
+
+      <nav class="nav__links" aria-label="Primary navigation">
+        <a href="#experiences">Experiences</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact" class="nav__cta">Plan a Trip</a>
+      </nav>
+
+      <button
+        class="nav__toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+      >
+        <span class="nav__toggleIcon" aria-hidden="true"></span>
+      </button>
+    </header>
+
+    <div class="menuOverlay" data-menu-overlay hidden></div>
+    <aside class="menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <div class="menu__header">
+        <span class="menu__title">Menu</span>
+        <button class="menu__close" type="button" aria-label="Close menu">
+          ✕
+        </button>
+      </div>
+      <nav class="menu__links">
+        <a href="#experiences">Experiences</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact" class="menu__cta">Plan a Trip</a>
+      </nav>
+    </aside>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero__overlay"></div>
+        <div class="hero__content container">
+          <p class="hero__eyebrow">Bespoke African Journeys</p>
+          <h1>Private luxury safaris, crafted just for you.</h1>
+          <p class="hero__subtitle">
+            From the Maasai Mara to the Serengeti, we design deeply personal,
+            high-end safari experiences with handpicked lodges, expert guides,
+            airport pickups, and seamless private transport throughout your trip.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Start Planning</a>
+            <a href="#experiences" class="btn btn--ghost">View Experiences</a>
+          </div>
+          <div class="hero__trust">
+            <span>Trusted by discerning travelers worldwide</span>
+            <span class="hero__rating">★ 4.9 / 5</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experiences">
+        <div class="section__header container">
+          <h2>Signature safari experiences</h2>
+          <p>
+            Choose from curated journeys or let us design something entirely
+            unique.
+          </p>
+        </div>
+        <div class="cards container">
+          <article class="card">
+            <img
+              src="media/sutirta-budiman-kjOBqwMUnWw-unsplash.jpg"
+              alt="Great Migration safari wildlife scene"
+              class="card__image"
+              loading="lazy"
+              decoding="async"
+            />
+            <h3>Great Migration Safari</h3>
+            <p>
+              Witness one of nature’s greatest spectacles with front-row seats
+              in exclusive camps across the Maasai Mara and Serengeti.
+            </p>
+            <ul class="card__list">
+              <li>Prime migration season dates</li>
+              <li>Private 4x4 game drives</li>
+              <li>Luxury tented camps</li>
+            </ul>
+          </article>
+          <article class="card">
+            <img
+              src="media/3.jpeg"
+              alt="Luxury lodge escape view"
+              class="card__image"
+              loading="lazy"
+              decoding="async"
+            />
+            <h3>Ultra-Luxury Lodge Escape</h3>
+            <p>
+              Stay in award-winning lodges with infinity pools, spa treatments,
+              and gourmet dining under African skies, with premium transfers
+              between airports, lodges, and safari sites.
+            </p>
+            <ul class="card__list">
+              <li>Butler service & fine dining</li>
+              <li>Spa & wellness experiences</li>
+              <li>Helicopter scenic flights (optional)</li>
+            </ul>
+          </article>
+          <article class="card">
+            <img
+              src="media/4.jpeg"
+              alt="Private transfer vehicle for safari guests"
+              class="card__image"
+              loading="lazy"
+              decoding="async"
+            />
+            <h3>Private Transfers & Custom Routes</h3>
+            <p>
+              Need direct transport? We provide private airport pickups, hotel
+              transfers, city rides, and custom point-to-point journeys on
+              request.
+            </p>
+            <ul class="card__list">
+              <li>Airport meet-and-greet service</li>
+              <li>Private chauffeur vehicles</li>
+              <li>Flexible destination routing</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="gallery">
+        <div class="section__header container">
+          <h2>Safari moments gallery</h2>
+          <p>
+            A glimpse of the wildlife, landscapes, and comfort you can expect on
+            your journey.
+          </p>
+        </div>
+        <div class="gallery container">
+          <img
+            src="media/sutirta-budiman-kjOBqwMUnWw-unsplash.jpg"
+            alt="Safari guest experience landscape moment"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="media/6.jpeg"
+            alt="Safari wildlife moment"
+            loading="lazy"
+            decoding="async"
+          />
+          <img src="media/7.jpeg" alt="Open plains and safari scenery" loading="lazy" decoding="async" />
+          <img src="media/8.jpeg" alt="Luxury safari camp environment" loading="lazy" decoding="async" />
+          <img src="media/9.jpeg" alt="Guided safari game drive experience" loading="lazy" decoding="async" />
+          <img
+            src="media/10.jpeg"
+            alt="Sunset safari landscape"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="media/ahmed-galal-VQqMACyNfwA-unsplash.jpg"
+            alt="Luxury safari landscape photo"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="media/download-_1_.jpg"
+            alt="Safari transfer and travel moment"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="media/WhatsApp Image 2026-03-06 at 12.06.36 PM.jpeg"
+            alt="LuxurySafaris guest travel moment"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="media/logoafrica.jpeg"
+            alt="LuxurySafaris logo"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </section>
+
+      <section class="section section--muted" id="destinations">
+        <div class="section__header container">
+          <h2>Iconic Kenya destinations</h2>
+          <p>
+            Handpicked Kenyan parks and landscapes for unforgettable safaris and
+            day adventures.
+          </p>
+        </div>
+        <div class="grid container">
+          <button
+            class="grid__item destination-card"
+            type="button"
+            data-destination="Maasai Mara, Kenya"
+            aria-label="Select Maasai Mara destination"
+          >
+            <h3>Maasai Mara, Kenya</h3>
+            <p>World-famous big cat territory and the Great Migration.</p>
+          </button>
+          <button
+            class="grid__item destination-card"
+            type="button"
+            data-destination="Hell’s Gate, Naivasha"
+            aria-label="Select Hell’s Gate destination"
+          >
+            <h3>Hell’s Gate, Naivasha</h3>
+            <p>
+              Dramatic gorges, cycling with wildlife, and scenic geothermal
+              landscapes.
+            </p>
+          </button>
+          <button
+            class="grid__item destination-card"
+            type="button"
+            data-destination="Amboseli National Park"
+            aria-label="Select Amboseli destination"
+          >
+            <h3>Amboseli National Park</h3>
+            <p>
+              Iconic elephant herds with breathtaking views of Mount Kilimanjaro.
+            </p>
+          </button>
+          <button
+            class="grid__item destination-card"
+            type="button"
+            data-destination="Lake Nakuru National Park"
+            aria-label="Select Lake Nakuru destination"
+          >
+            <h3>Lake Nakuru National Park</h3>
+            <p>
+              Rhino sanctuary, birdlife, and beautiful lakeside game drives.
+            </p>
+          </button>
+        </div>
+      </section>
+
+      <section class="section" id="why-us">
+        <div class="section__header container">
+          <h2>Why travel with LuxurySafaris?</h2>
+          <p>We focus on detail, discretion, and unforgettable moments.</p>
+        </div>
+        <div class="pillars container">
+          <div class="pillar">
+            <h3>Bespoke itineraries</h3>
+            <p>
+              Every journey is custom-built around your interests, dates, and
+              comfort preferences.
+            </p>
+          </div>
+          <div class="pillar">
+            <h3>On-the-ground experts</h3>
+            <p>
+              Local safari specialists, vetted guides, and 24/7 support during
+              your trip, including airport arrival coordination and in-country
+              transport assistance.
+            </p>
+          </div>
+          <div class="pillar">
+            <h3>Luxury without compromise</h3>
+            <p>
+              We partner only with lodges, camps, and operators that meet our
+              strict quality standards, including trusted professional drivers
+              for safe and comfortable transfers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="reviews">
+        <div class="section__header container">
+          <h2>Guest Reviews</h2>
+        </div>
+        <div class="reviews-marquee container" aria-label="Guest reviews scrolling">
+          <div class="reviews-marquee__track" id="reviewsTrack">
+            <div class="reviews-marquee__group" id="reviewsGroupA"></div>
+            <div
+              class="reviews-marquee__group"
+              id="reviewsGroupB"
+              aria-hidden="true"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="contact">
+        <div class="section__header section__header--center container">
+          <h2>Plan your safari</h2>
+          <p>
+            Share your trip details, airport pickup needs, or custom destination
+            routes and we’ll design a tailored proposal within 24–48 hours.
+          </p>
+        </div>
+        <form
+          class="form container"
+          id="inquiry-form"
+          data-booking-email="luxurysafarisandcabs@gmail.com"
+          novalidate
+        >
+          <div class="form__row">
+            <div class="form__field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form__field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="form__field">
+              <label for="travel-dates">Preferred travel dates</label>
+              <input
+                type="text"
+                id="travel-dates"
+                name="travelDates"
+                placeholder="e.g. July 2026, flexible by 1 week"
+              />
+            </div>
+            <div class="form__field">
+              <label for="group-size">Group size</label>
+              <input
+                type="number"
+                id="group-size"
+                name="groupSize"
+                min="1"
+                max="20"
+              />
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="form__field">
+              <label for="route-from">From</label>
+              <input
+                type="text"
+                id="route-from"
+                name="routeFrom"
+                placeholder="e.g. Naivasha"
+                autocomplete="off"
+                list="route-from-suggestions"
+              />
+              <datalist id="route-from-suggestions"></datalist>
+            </div>
+            <div class="form__field">
+              <label for="route-to">To</label>
+              <input
+                type="text"
+                id="route-to"
+                name="routeTo"
+                placeholder="e.g. Nairobi"
+                autocomplete="off"
+                list="route-to-suggestions"
+              />
+              <datalist id="route-to-suggestions"></datalist>
+            </div>
+          </div>
+          <div class="form__field">
+            <label for="route-distance">Estimated distance</label>
+            <input
+              type="text"
+              id="route-distance"
+              name="routeDistance"
+              placeholder="Select From and To to calculate"
+              readonly
+            />
+            <p class="form__hint">
+              Enter any two places to auto-calculate road distance and time.
+            </p>
+          </div>
+          <div class="form__field">
+            <label for="interests">What kind of experience are you looking for?</label>
+            <textarea
+              id="interests"
+              name="interests"
+              rows="4"
+              placeholder="Tell us about your ideal safari, special occasions, or must-see destinations."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            Submit inquiry
+          </button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+          <p class="form__note">
+            No payment required now. A safari specialist will contact you
+            personally to refine your itinerary.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner container">
+        <div class="footer__left">
+          <span
+            >&copy; <span id="year"></span> LuxurySafaris. All rights reserved.</span
+          >
+          <div class="footer__social" aria-label="Social and contact links">
+            <a
+              href="https://www.facebook.com/profile.php?id=61579560785351"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              title="Facebook"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M14.2 8.4h2V5h-2.4c-2.8 0-4.6 1.8-4.6 4.9v2.1H7v3.3h2.2V22h3.5v-6.7h2.8l.4-3.3h-3.2V9.9c0-1 .3-1.5 1.5-1.5Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="tel:+254746548366"
+              aria-label="Phone contact"
+              title="Call us"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M19.3 15.3c-1.3 0-2.5-.2-3.6-.7-.4-.2-.8-.1-1.1.2l-2.2 1.7a15.8 15.8 0 0 1-4.9-4.9l1.7-2.2c.2-.3.3-.8.2-1.1A10 10 0 0 1 8.7 4.7c0-.6-.5-1.1-1.1-1.1H4.1C3.5 3.6 3 4.1 3 4.7 3 14.3 10.7 22 20.3 22c.6 0 1.1-.5 1.1-1.1v-3.5c0-.6-.5-1.1-1.1-1.1Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.instagram.com/luxury_safaris_cabs"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              title="Instagram"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 7.1A4.9 4.9 0 1 0 12 17a4.9 4.9 0 0 0 0-9.9Zm0 8.1a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4Z"
+                />
+                <path
+                  d="M17.6 2h-11A4.6 4.6 0 0 0 2 6.6v10.8A4.6 4.6 0 0 0 6.6 22h10.8a4.6 4.6 0 0 0 4.6-4.6V6.6A4.6 4.6 0 0 0 17.4 2Zm2.7 15.4a2.8 2.8 0 0 1-2.8 2.8H6.6a2.8 2.8 0 0 1-2.8-2.8V6.6a2.8 2.8 0 0 1 2.8-2.8h10.8a2.8 2.8 0 0 1 2.8 2.8Z"
+                />
+                <circle cx="17.5" cy="6.5" r="1.1" />
+              </svg>
+            </a>
+            <a href="#" aria-label="TikTok" title="TikTok">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M15.5 3c.4 1.6 1.3 2.9 2.9 3.7.8.4 1.7.6 2.6.6v2.7c-1.5 0-3-.4-4.3-1.2v6.1A6 6 0 1 1 11 9.2v2.8a3.3 3.3 0 1 0 2.9 3.2V3h1.6Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="mailto:luxurysafarisandcabs@gmail.com"
+              aria-label="Email"
+              title="Email us"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M20 5H4a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V7c0-1.1-.9-2-2-2Zm0 3.2-8 5.3-8-5.3V7l8 5.3L20 7Z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="footer__meta">
+            <a href="#contact">Contact</a>
+            <a href="privacy.html" aria-label="Privacy policy">Privacy</a>
+            <a href="terms.html" aria-label="Terms of service">Terms</a>
+          </div>
+        </div>
+        <div class="footer__right">
+          <a href="#top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/254746548366?text=Hello%20LuxurySafaris%2C%20I%20need%20help%20planning%20my%20trip."
+        target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+      title="Chat on WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M20.5 3.5A11.4 11.4 0 0 0 2.7 17.2L1 23l6-1.6A11.4 11.4 0 1 0 20.5 3.5Zm-8.9 18c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.6 1 1-3.5-.2-.4a9.4 9.4 0 1 1 8.2 4.5Zm5.2-7.1c-.3-.2-1.7-.9-2-.9s-.5-.1-.7.2-.8.9-1 1c-.2.2-.4.2-.7 0-2.1-1-3.5-3.1-3.7-3.4-.2-.3 0-.5.1-.7l.5-.5c.2-.2.2-.4.3-.6 0-.2 0-.4 0-.5l-.9-2.1c-.2-.4-.5-.4-.7-.4h-.6c-.2 0-.5 0-.7.2-.2.2-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.8 4.3.7.3 1.3.5 1.8.7.8.2 1.5.2 2 .1.6-.1 1.7-.7 1.9-1.5.2-.7.2-1.4.2-1.5 0-.1-.2-.2-.5-.4Z"
+        />
+      </svg>
+      <span>WhatsApp</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
